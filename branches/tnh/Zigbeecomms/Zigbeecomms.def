@@ -1,0 +1,18 @@
+; Zigbeecomms.def : Declares the module parameters for the DLL.
+
+LIBRARY "Zigbeecomms"
+
+EXPORTS
+    ; Explicit exports can go here
+	zbOpenPort				@1
+	zbClosePort				@2
+	zbGetReadData			@3
+	zbcreateComms			@4
+	zbDataWrite				@5
+	zbDataRead				@6
+	zbCommOver				@7
+	ComPortScan				@8
+	zvGetRcvData			@9
+	zbDataWriteForCSharp	@10
+	zbDataReadForCSharp		@11
+	zbCommOverForCSharp		@12
